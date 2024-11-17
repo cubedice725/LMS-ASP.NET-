@@ -13,16 +13,10 @@
             <div>
                 <asp:Label ID="lblId" runat="server" Text="사용자 이름:"></asp:Label>
                 <asp:TextBox ID="txtId" runat="server"></asp:TextBox>
-            </div>
-            <div>
                 <asp:Label ID="lblEmail" runat="server" Text="이메일:"></asp:Label>
                 <asp:TextBox ID="txtEmail" runat="server"></asp:TextBox>
-            </div>
-            <div>
                 <asp:Label ID="lblPassword" runat="server" Text="비밀번호:"></asp:Label>
                 <asp:TextBox ID="txtPassword" runat="server" TextMode="Password"></asp:TextBox>
-            </div>
-            <div>
                 <asp:Button ID="btnMembership" runat="server" Text="가입하기" OnClick="Membership_Click" />
             </div>
         </div>
